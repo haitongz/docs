@@ -75,6 +75,34 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: 使用bash
+   :titlesonly:
+   :numbered:
+
+   bash-syntax/bash-basic
+   bash-syntax/bash-set
+   bash-syntax/bash-condition
+   bash-syntax/bash-mktemp-trap
+   bash-syntax/bash-utils
+
+.. toctree::
+   :maxdepth: 1
+   :caption: IDE 
+   :titlesonly:
+   :numbered:
+
+   ide/idea
+
+.. toctree::
+   :maxdepth: 1
+   :caption: linux-tool 
+   :titlesonly:
+   :numbered:
+
+   linux-tool/jq
+
+.. toctree::
+   :maxdepth: 1
    :caption: 文档格式转换
 
    format-convert/pandoc
