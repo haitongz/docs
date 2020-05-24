@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '[野火]sphinx文档规范与模版'
-copyright = '2019, embedfire-野火 www.embedfire.com'
-author = 'embedfire-野火 www.embedfire.com'
+project = '[文档]技术'
+copyright = '2020, http://haitongz.github.io/'
+author = 'haitong'
 
 
 # -- General configuration ---------------------------------------------------
