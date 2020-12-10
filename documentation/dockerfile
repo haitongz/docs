@@ -1,0 +1,10 @@
+FROM python:3.9
+
+RUN apt-get update
+
+COPY requirements.txt /app/requirements.txt
+# upgrade pip to latest version
+RUN pip install --upgrade pip
+RUN pip install sphinx 
+RUN pip install -r /app/requirements.txt
+RUN apt-get update && apt-get -y install jq
