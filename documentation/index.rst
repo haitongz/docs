@@ -63,7 +63,6 @@
    rest-syntax/admonition
    rest-syntax/directive-role
    rest-syntax/rule
-   rest-syntax/markups
 
 .. toctree::
    :maxdepth: 1
