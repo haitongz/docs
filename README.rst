@@ -25,3 +25,19 @@
   linux内核源码文档也是使用rst格式编写的。
   我们的文档也支持markdown，主要是为了方便不熟悉rst的用户参与进来。
 
+- A bullet list
+
+  #. Nested number list.
+  #. Nested item 2.
+
+- A bullet list item 2.
+
+  Paragraph 2 of item 2.
+
+  * Nested bullet list.
+  * Nested item 2.
+
+    A. Third level staring with 'A'
+    #. Third level item B.
+
+  * Nested item 3.

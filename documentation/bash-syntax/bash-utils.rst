@@ -171,17 +171,17 @@ usage
        echo "       --config-dir <config-dir>, default is .., the directory contains configurations of minio"
        echo "       --help, usage"
    }
-   
+
    config_dir="$(pwd)/../"
-   
+
    TEMP=$(getopt -o -a -l config-dir:,help -n "start.sh" -- "$@")
    if [[ "$?" != 0 ]]; then
        echo "error options, terminating....."
        exit 1
    fi
-   
+
    eval set -- "${TEMP}"
-   
+
    while true; do
        case "$1" in
        --config-dir)
@@ -204,3 +204,22 @@ usage
            ;;
        esac
    done
+
+
+ensure
+-------------
+.. code-block:: language
+   :linenos:
+
+   say() {
+       printf 'rustup: %s\n' "$1"
+   }
+
+   err() {
+       say "$1" >&2
+       exit 1
+   }
+   ensure() {
+       if ! "$@"; then err "command failed: $*"; fi
+   }
+   ensure ls /xxx
